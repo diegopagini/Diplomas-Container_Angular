@@ -1,1 +1,6 @@
-<p>card works!</p>
+<mat-card *ngIf="diploma" class="card">
+  {{ diploma | json }}
+  <mat-card-content>
+    <iframe [src]="diploma.url | safe" frameBorder="0"></iframe>
+  </mat-card-content>
+</mat-card>

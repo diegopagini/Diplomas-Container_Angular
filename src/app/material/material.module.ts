@@ -6,6 +6,8 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatIconModule } from '@angular/material/icon';
+import { MatInputModule } from '@angular/material/input';
+
 
 const materialModules: MaterialModule[] = [
   MatCardModule,
@@ -14,6 +16,7 @@ const materialModules: MaterialModule[] = [
   MatDatepickerModule,
   MatButtonModule,
   MatIconModule,
+  MatInputModule,
 ];
 
 @NgModule({
