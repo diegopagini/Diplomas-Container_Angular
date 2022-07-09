@@ -1,0 +1,10 @@
+.card {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &__iframe {
+    max-width: 250px;
+  }
+}

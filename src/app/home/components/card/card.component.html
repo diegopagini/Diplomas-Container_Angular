@@ -1,6 +1,11 @@
 <mat-card *ngIf="diploma" class="card">
-  {{ diploma | json }}
+  <mat-card-header>{{ diploma.name }}</mat-card-header>
   <mat-card-content>
-    <iframe [src]="diploma.url | safe" frameBorder="0"></iframe>
+    <iframe
+      class="card__iframe"
+      [src]="diploma.url | safe"
+      frameBorder="0"
+    ></iframe>
   </mat-card-content>
+  <mat-card-footer>hours: {{ diploma.hours }}</mat-card-footer>
 </mat-card>

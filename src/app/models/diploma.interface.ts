@@ -4,4 +4,5 @@ export interface Diploma {
   name: string;
   url: SafeResourceUrl;
   id: number;
+  hours: number;
 }
