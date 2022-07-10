@@ -1,8 +1,7 @@
-import { SafeResourceUrl } from '@angular/platform-browser';
-
 export interface Diploma {
   name: string;
-  url: SafeResourceUrl;
+  url: string;
   id: number;
   hours: number;
+  date_end: string | Date;
 }

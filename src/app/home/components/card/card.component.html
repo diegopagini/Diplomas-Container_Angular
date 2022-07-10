@@ -1,11 +1,16 @@
 <mat-card *ngIf="diploma" class="card">
-  <mat-card-header>{{ diploma.name }}</mat-card-header>
+  <mat-card-header class="card__header">{{ diploma.name }}</mat-card-header>
   <mat-card-content>
     <iframe
+      id="iframe"
       class="card__iframe"
       [src]="diploma.url | safe"
       frameBorder="0"
+      scrolling="no"
     ></iframe>
   </mat-card-content>
-  <mat-card-footer>hours: {{ diploma.hours }}</mat-card-footer>
+  <mat-card-footer class="card__footer">
+    <div>{{ diploma.hours }}</div>
+    <div>{{ diploma.date_end }}</div>
+  </mat-card-footer>
 </mat-card>

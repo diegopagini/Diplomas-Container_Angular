@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { Diploma } from 'src/app/models/diploma.interface';
 
 @Component({
   selector: 'app-card',
@@ -6,5 +7,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./card.component.scss'],
 })
 export class CardComponent {
-  @Input() diploma: any;
+  @Input() diploma: Diploma;
 }
