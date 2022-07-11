@@ -1,4 +1,18 @@
-<section class="home">
-  <app-search (searchEmitter)="onSearch($event)"></app-search>
-  <app-list [diplomas]="diplomas"></app-list>
-</section>
+<mat-drawer-container autosize>
+  <mat-drawer #drawer mode="side">
+    <app-stats [diplomas]="diplomasCopy"></app-stats>
+  </mat-drawer>
+
+  <section class="home">
+    <button
+      class="home__sidenav-toggle"
+      type="button"
+      mat-button
+      (click)="drawer.toggle()"
+    >
+      <mat-icon>query_stats</mat-icon>
+    </button>
+    <app-search (searchEmitter)="onSearch($event)"></app-search>
+    <app-list [diplomas]="diplomas"></app-list>
+  </section>
+</mat-drawer-container>

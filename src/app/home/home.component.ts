@@ -10,7 +10,7 @@ import { Diploma } from '../models/diploma.interface';
 })
 export class HomeComponent {
   diplomas: Diploma[] = JSON.parse(JSON.stringify(DIPLOMAS));
-  private diplomasCopy = JSON.parse(JSON.stringify(DIPLOMAS));
+  diplomasCopy = JSON.parse(JSON.stringify(DIPLOMAS));
 
   onSearch(search: string): void {
     if (search?.length > 0) {

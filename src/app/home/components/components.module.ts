@@ -8,12 +8,14 @@ import { CardComponent } from './card/card.component';
 import { ListComponent } from './list/list.component';
 import { ModalComponent } from './modal/modal.component';
 import { SearchComponent } from './search/search.component';
+import { StatsComponent } from './stats/stats.component';
 
 const components = [
   ListComponent,
   CardComponent,
   SearchComponent,
   ModalComponent,
+  StatsComponent,
 ];
 
 @NgModule({

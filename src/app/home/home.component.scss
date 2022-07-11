@@ -1,0 +1,9 @@
+.home {
+  position: relative;
+
+  &__sidenav-toggle {
+    left: 0;
+    position: absolute;
+    top: 3rem;
+  }
+}
