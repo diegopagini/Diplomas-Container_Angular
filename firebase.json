@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/diplomas-container/browser",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
