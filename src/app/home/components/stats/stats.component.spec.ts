@@ -1,6 +1,7 @@
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
+import { DIPLOMAS } from '../../../../assets/source';
 import { MaterialModule } from '../../../material/material.module';
 import { StatsComponent } from './stats.component';
 
@@ -17,6 +18,7 @@ describe('StatsComponent', () => {
 
     fixture = TestBed.createComponent(StatsComponent);
     component = fixture.componentInstance;
+    component.diplomas = DIPLOMAS;
     fixture.detectChanges();
   });
 

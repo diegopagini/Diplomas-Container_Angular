@@ -1,4 +1,12 @@
 <section *ngIf="diplomas" class="stats">
-  <p class="stats__data">Total de cursos: {{ diplomas.length }}</p>
-  <p class="stats__data">Total de horas: {{ hours }}</p>
+  <div class="stats__content">
+    <p class="stats__data">Total de cursos: {{ diplomas.length }}.</p>
+    <p class="stats__data">Total de horas: {{ hours }}.</p>
+    <p class="stats__data">
+      Curso de mayor duración: {{ longestCourse }} horas.
+    </p>
+    <p class="stats__data">
+      Curso de menor duración: {{ shorterCourse }} horas.
+    </p>
+  </div>
 </section>
