@@ -9,5 +9,19 @@ import { Diploma } from '../models/diploma.interface';
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent {
-  diplomas: Diploma[] = DIPLOMAS;
+  diplomas: Diploma[] = JSON.parse(JSON.stringify(DIPLOMAS));
+  private diplomasCopy = JSON.parse(JSON.stringify(DIPLOMAS));
+
+  onSearch(search: string): void {
+    if (search?.length > 0) {
+      this.diplomas = this.diplomas.filter((diploma: Diploma) =>
+        diploma.name
+          .toLocaleLowerCase()
+          .trim()
+          .includes(search.toLowerCase().trim())
+      );
+    } else {
+      this.diplomas = this.diplomasCopy;
+    }
+  }
 }

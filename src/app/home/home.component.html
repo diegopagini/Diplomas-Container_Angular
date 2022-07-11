@@ -1,4 +1,4 @@
 <section class="home">
-  <app-search></app-search>
+  <app-search (searchEmitter)="onSearch($event)"></app-search>
   <app-list [diplomas]="diplomas"></app-list>
 </section>

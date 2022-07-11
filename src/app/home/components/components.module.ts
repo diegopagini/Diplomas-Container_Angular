@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { MaterialModule } from 'src/app/material/material.module';
 import { PipesModule } from 'src/app/pipes/pipes.module';
 
@@ -16,8 +17,8 @@ const components = [
 ];
 
 @NgModule({
-  declarations: [...components, ],
-  imports: [CommonModule, MaterialModule, PipesModule],
+  declarations: [...components],
+  imports: [CommonModule, MaterialModule, PipesModule, FormsModule],
   exports: [...components],
 })
 export class ComponentsModule {}

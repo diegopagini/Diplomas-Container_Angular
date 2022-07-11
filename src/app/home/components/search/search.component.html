@@ -1,1 +1,12 @@
-<p>search works!</p>
+<section class="search">
+  <mat-form-field class="search__input" appearance="fill">
+    <input
+      autocomplete="off"
+      type="text"
+      matInput
+      placeholder="Search Diploma..."
+      [(ngModel)]="searchValue"
+      #input
+    />
+  </mat-form-field>
+</section>

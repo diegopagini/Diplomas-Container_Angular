@@ -1,0 +1,13 @@
+:host {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.search {
+  margin: 1rem 0;
+
+  &__input {
+    min-width: 300px;
+  }
+}
