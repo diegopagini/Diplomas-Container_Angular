@@ -1,4 +1,4 @@
-<mat-card *ngIf="diploma" class="card">
+<mat-card (click)="onClick()" *ngIf="diploma" class="card">
   <mat-card-header class="card__header">{{ diploma.name }}</mat-card-header>
   <mat-card-content>
     <iframe
@@ -9,7 +9,13 @@
     ></iframe>
   </mat-card-content>
   <mat-card-footer class="card__footer">
-    <div>{{ diploma.hours }}</div>
-    <div>{{ diploma.date_end }}</div>
+    <div class="card__footer-info">
+      <mat-icon>schedule</mat-icon>
+      <span>{{ diploma.hours }}</span>
+    </div>
+    <div class="card__footer-info">
+      <mat-icon>verified</mat-icon>
+      <span>{{ diploma.date_end }}</span>
+    </div>
   </mat-card-footer>
 </mat-card>

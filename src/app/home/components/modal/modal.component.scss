@@ -1,0 +1,19 @@
+.modal {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+
+  &__title {
+    text-align: center;
+    letter-spacing: 1px;
+  }
+
+  &__content,
+  &__iframe {
+    min-height: 300px;
+    min-width: 300px;
+    overflow: hidden;
+  }
+}

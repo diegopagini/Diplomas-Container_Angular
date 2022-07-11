@@ -1,0 +1,14 @@
+<section *ngIf="diploma" class="modal">
+  <h1 class="modal__title" mat-dialog-title>{{ diploma.name }}</h1>
+  <div class="modal__content" mat-dialog-content>
+    <iframe
+      class="modal__iframe"
+      [src]="diploma.url | safe"
+      width="100%"
+      height="100%"
+    ></iframe>
+  </div>
+  <div mat-dialog-actions>
+    <button mat-button mat-dialog-close>Close</button>
+  </div>
+</section>

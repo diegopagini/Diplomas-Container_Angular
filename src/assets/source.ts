@@ -723,7 +723,7 @@ export const DIPLOMAS: Diploma[] = [
     date_end: '01/2021',
   },
   {
-    name: 'Reac: De cero a experto (Hooks)',
+    name: 'React: De cero a experto (Hooks)',
     url: 'assets/diplomas/react-mern.pdf',
     id: 104,
     hours: 44,
