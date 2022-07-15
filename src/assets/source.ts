@@ -911,4 +911,11 @@ export const DIPLOMAS: Diploma[] = [
     hours: 19,
     date_end: '10/2020',
   },
+  {
+    name: 'Git y Github. Sistema de control de versiones',
+    url: 'assets/diplomas/git-github-versiones.pdf',
+    id: 131,
+    hours: 12,
+    date_end: '07/2022',
+  },
 ];
