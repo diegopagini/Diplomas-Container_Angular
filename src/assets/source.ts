@@ -918,4 +918,11 @@ export const DIPLOMAS: Diploma[] = [
     hours: 12,
     date_end: '07/2022',
   },
+  {
+    name: 'Gestionar la calidad del código con SonarQube',
+    url: 'assets/diplomas/sonarqube.pdf',
+    id: 132,
+    hours: 4,
+    date_end: '07/2022',
+  },
 ];
