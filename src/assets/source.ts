@@ -925,4 +925,18 @@ export const DIPLOMAS: Diploma[] = [
     hours: 4,
     date_end: '07/2022',
   },
+  {
+    name: 'Codificación segura y estándares de seguridad.',
+    url: 'assets/diplomas/codificacion-segura.pdf',
+    id: 133,
+    hours: 3,
+    date_end: '07/2022',
+  },
+  {
+    name: 'Jenkins',
+    url: 'assets/diplomas/jenkins.pdf',
+    id: 134,
+    hours: 3,
+    date_end: '07/2022',
+  },
 ];
