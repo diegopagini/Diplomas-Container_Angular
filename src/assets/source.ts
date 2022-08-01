@@ -939,4 +939,11 @@ export const DIPLOMAS: Diploma[] = [
     hours: 3,
     date_end: '07/2022',
   },
+  {
+    name: 'Next.js',
+    url: 'assets/diplomas/next.pdf',
+    id: 135,
+    hours: 46,
+    date_end: '08/2022',
+  },
 ];
