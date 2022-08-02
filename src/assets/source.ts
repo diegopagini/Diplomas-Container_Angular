@@ -946,4 +946,18 @@ export const DIPLOMAS: Diploma[] = [
     hours: 46,
     date_end: '08/2022',
   },
+  {
+    name: 'Agile + Scrum',
+    url: 'assets/diplomas/agile-scrum.pdf',
+    id: 136,
+    hours: 3,
+    date_end: '08/2022',
+  },
+  {
+    name: 'Scrum y Agile',
+    url: 'assets/diplomas/scrum-agile.pdf',
+    id: 137,
+    hours: 8,
+    date_end: '08/2022',
+  },
 ];
