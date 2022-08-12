@@ -967,4 +967,11 @@ export const DIPLOMAS: Diploma[] = [
     hours: 7,
     date_end: '08/2022',
   },
+  {
+    name: 'Diseño Web Morderno',
+    url: 'assets/diplomas/web-moderno.pdf',
+    id: 139,
+    hours: 18,
+    date_end: '08/2022',
+  },
 ];
