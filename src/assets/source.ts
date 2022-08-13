@@ -974,4 +974,11 @@ export const DIPLOMAS: Diploma[] = [
     hours: 18,
     date_end: '08/2022',
   },
+  {
+    name: 'Introducción a Jira para gestión de proyectos',
+    url: 'assets/diplomas/web-moderno.pdf',
+    id: 140,
+    hours: 2,
+    date_end: '08/2022',
+  },
 ];
