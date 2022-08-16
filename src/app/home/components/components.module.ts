@@ -1,3 +1,4 @@
+import { ScrollingModule } from '@angular/cdk/scrolling';
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -20,7 +21,13 @@ const components = [
 
 @NgModule({
   declarations: [...components],
-  imports: [CommonModule, MaterialModule, PipesModule, FormsModule],
+  imports: [
+    CommonModule,
+    MaterialModule,
+    PipesModule,
+    FormsModule,
+    ScrollingModule,
+  ],
   exports: [...components],
 })
 export class ComponentsModule {}

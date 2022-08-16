@@ -1,3 +1,6 @@
-<section class="list">
-  <app-card *ngFor="let diploma of diplomas" [diploma]="diploma"></app-card>
-</section>
+<cdk-virtual-scroll-viewport class="list" [itemSize]="30">
+  <app-card
+    *cdkVirtualFor="let diploma of diplomas"
+    [diploma]="diploma"
+  ></app-card>
+</cdk-virtual-scroll-viewport>
