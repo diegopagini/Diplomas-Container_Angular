@@ -981,4 +981,11 @@ export const DIPLOMAS: Diploma[] = [
     hours: 2,
     date_end: '08/2022',
   },
+  {
+    name: 'Angular Security Masterclass',
+    url: 'assets/diplomas/angular-security.pdf',
+    id: 141,
+    hours: 8,
+    date_end: '08/2022',
+  },
 ];
