@@ -988,4 +988,11 @@ export const DIPLOMAS: Diploma[] = [
     hours: 8,
     date_end: '08/2022',
   },
+  {
+    name: 'NestJs - Introducción',
+    url: 'assets/diplomas/nestjs-intro.pdf',
+    id: 142,
+    hours: 2,
+    date_end: '08/2022',
+  },
 ];
