@@ -995,4 +995,11 @@ export const DIPLOMAS: Diploma[] = [
     hours: 2,
     date_end: '08/2022',
   },
+  {
+    name: 'Electron',
+    url: 'assets/diplomas/electron.pdf',
+    id: 143,
+    hours: 13,
+    date_end: '08/2022',
+  },
 ];
