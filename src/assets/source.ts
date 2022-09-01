@@ -1002,4 +1002,11 @@ export const DIPLOMAS: Diploma[] = [
     hours: 13,
     date_end: '08/2022',
   },
+  {
+    name: 'Jira with real-world examples',
+    url: 'assets/diplomas/jira-confluence.pdf',
+    id: 144,
+    hours: 12,
+    date_end: '09/2022',
+  },
 ];
