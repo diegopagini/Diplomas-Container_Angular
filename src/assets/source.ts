@@ -1009,4 +1009,25 @@ export const DIPLOMAS: Diploma[] = [
     hours: 12,
     date_end: '09/2022',
   },
+  {
+    name: 'Object Oriented Design Foundations',
+    url: 'assets/diplomas/uml.pdf',
+    id: 145,
+    hours: 2,
+    date_end: '09/2022',
+  },
+  {
+    name: 'Proceso de Desarrollo Seguro',
+    url: 'assets/diplomas/ssdlc.pdf',
+    id: 146,
+    hours: 2,
+    date_end: '09/2022',
+  },
+  {
+    name: 'Git Bootcamp',
+    url: 'assets/diplomas/git-bootcamp.pdf',
+    id: 147,
+    hours: 17,
+    date_end: '10/2022',
+  },
 ];
