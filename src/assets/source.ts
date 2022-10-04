@@ -1030,4 +1030,18 @@ export const DIPLOMAS: Diploma[] = [
     hours: 17,
     date_end: '10/2022',
   },
+  {
+    name: 'Introducción a Docker',
+    url: 'assets/diplomas/docker-introduction.pdf',
+    id: 148,
+    hours: 4,
+    date_end: '09/2022',
+  },
+  {
+    name: 'Introducción al Testing',
+    url: 'assets/diplomas/testing-introduccion.pdf',
+    id: 149,
+    hours: 3,
+    date_end: '10/2022',
+  },
 ];
