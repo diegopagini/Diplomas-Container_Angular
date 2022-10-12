@@ -1044,4 +1044,11 @@ export const DIPLOMAS: Diploma[] = [
     hours: 3,
     date_end: '10/2022',
   },
+  {
+    name: 'Node de cero a experto',
+    url: 'assets/diplomas/node.pdf',
+    id: 150,
+    hours: 29,
+    date_end: '10/2022',
+  },
 ];
