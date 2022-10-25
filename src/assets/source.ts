@@ -1044,4 +1044,18 @@ export const DIPLOMAS: Diploma[] = [
     hours: 3,
     date_end: '10/2022',
   },
+  {
+    name: 'Testing - Junit',
+    url: 'assets/diplomas/junit.pdf',
+    id: 150,
+    hours: 15,
+    date_end: '10/2022',
+  },
+  {
+    name: 'Patrones de Diseño',
+    url: 'assets/diplomas/patrones-diseño.pdf',
+    id: 151,
+    hours: 7,
+    date_end: '10/2022',
+  },
 ];
