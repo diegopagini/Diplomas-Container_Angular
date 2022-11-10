@@ -1065,4 +1065,11 @@ export const DIPLOMAS: Diploma[] = [
     hours: 29,
     date_end: '10/2022',
   },
+  {
+    name: 'ECMAScript 6 - detalles',
+    url: 'assets/diplomas/ecmascript-6-detalles.pdf',
+    id: 153,
+    hours: 6,
+    date_end: '11/2022',
+  },
 ];
