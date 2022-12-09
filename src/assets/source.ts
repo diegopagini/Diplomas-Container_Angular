@@ -1072,4 +1072,11 @@ export const DIPLOMAS: Diploma[] = [
     hours: 6,
     date_end: '11/2022',
   },
+  {
+    name: 'React PRO',
+    url: 'assets/diplomas/react-pro.pdf',
+    id: 154,
+    hours: 27,
+    date_end: '12/2022',
+  },
 ];
