@@ -1079,4 +1079,11 @@ export const DIPLOMAS: Diploma[] = [
     hours: 27,
     date_end: '12/2022',
   },
+  {
+    name: 'Angular 12',
+    url: 'assets/diplomas/angular-12.pdf',
+    id: 155,
+    hours: 13,
+    date_end: '12/2022',
+  },
 ];
