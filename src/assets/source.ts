@@ -1086,4 +1086,11 @@ export const DIPLOMAS: Diploma[] = [
     hours: 13,
     date_end: '12/2022',
   },
+  {
+    name: 'Angular Integration Testing',
+    url: 'assets/diplomas/angular-integration-testing.pdf',
+    id: 156,
+    hours: 3,
+    date_end: '12/2022',
+  },
 ];
