@@ -976,7 +976,7 @@ export const DIPLOMAS: Diploma[] = [
   },
   {
     name: 'Introducción a Jira para gestión de proyectos',
-    url: 'assets/diplomas/web-moderno.pdf',
+    url: 'assets/diplomas/jira.pdf',
     id: 140,
     hours: 2,
     date_end: '08/2022',
@@ -1092,5 +1092,26 @@ export const DIPLOMAS: Diploma[] = [
     id: 156,
     hours: 3,
     date_end: '12/2022',
+  },
+  {
+    name: 'Seguridad de la información 3.0',
+    url: 'assets/diplomas/seguridad-informacion-3.pdf',
+    id: 157,
+    hours: 1,
+    date_end: '01/2023',
+  },
+  {
+    name: 'NestJs + GraphQl',
+    url: 'assets/diplomas/nest-graphql.pdf',
+    id: 158,
+    hours: 30,
+    date_end: '01/2023',
+  },
+  {
+    name: 'Cuidado de datos personales 2.0',
+    url: 'assets/diplomas/datos-personales.pdf',
+    id: 159,
+    hours: 1,
+    date_end: '01/2023',
   },
 ];
