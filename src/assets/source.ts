@@ -1114,4 +1114,11 @@ export const DIPLOMAS: Diploma[] = [
     hours: 1,
     date_end: '01/2023',
   },
+  {
+    name: 'React Query',
+    url: 'assets/diplomas/react-query.pdf',
+    id: 160,
+    hours: 11,
+    date_end: '01/2023',
+  },
 ];
