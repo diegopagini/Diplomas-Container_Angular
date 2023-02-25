@@ -1121,4 +1121,11 @@ export const DIPLOMAS: Diploma[] = [
     hours: 11,
     date_end: '01/2023',
   },
+  {
+    name: 'Angular de cero a experto actualizado',
+    url: 'assets/diplomas/angular-14.pdf',
+    id: 161,
+    hours: 44,
+    date_end: '02/2023',
+  },
 ];
