@@ -1128,4 +1128,11 @@ export const DIPLOMAS: Diploma[] = [
     hours: 44,
     date_end: '02/2023',
   },
+  {
+    name: 'C2',
+    url: 'assets/diplomas/c2.pdf',
+    id: 162,
+    hours: 1,
+    date_end: '02/2023',
+  },
 ];
