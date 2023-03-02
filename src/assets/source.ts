@@ -1135,4 +1135,11 @@ export const DIPLOMAS: Diploma[] = [
     hours: 1,
     date_end: '02/2023',
   },
+  {
+    name: 'Tailwind',
+    url: 'assets/diplomas/tailwind.pdf',
+    id: 163,
+    hours: 10,
+    date_end: '03/2023',
+  },
 ];
