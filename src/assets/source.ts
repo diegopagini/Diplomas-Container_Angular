@@ -1142,4 +1142,11 @@ export const DIPLOMAS: Diploma[] = [
     hours: 10,
     date_end: '03/2023',
   },
+  {
+    name: 'Iversión en Acciones y Bolsa',
+    url: 'assets/diplomas/inversion-bolsa.pdf',
+    id: 164,
+    hours: 3,
+    date_end: '03/2023',
+  },
 ];
