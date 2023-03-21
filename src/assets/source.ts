@@ -1149,4 +1149,11 @@ export const DIPLOMAS: Diploma[] = [
     hours: 3,
     date_end: '03/2023',
   },
+  {
+    name: 'Criptomonedas y trading',
+    url: 'assets/diplomas/inicio-criptomonedas.pdf',
+    id: 165,
+    hours: 3,
+    date_end: '03/2023',
+  },
 ];
