@@ -1,1 +1,1 @@
-# Diplomas
+# ```Diplomas```
