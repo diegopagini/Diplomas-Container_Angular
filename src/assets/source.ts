@@ -1156,4 +1156,11 @@ export const DIPLOMAS: Diploma[] = [
     hours: 3,
     date_end: '03/2023',
   },
+  {
+    name: 'Introducción a la Inteligencia Artificial',
+    url: 'assets/diplomas/ia-introduccion.pdf',
+    id: 166,
+    hours: 3,
+    date_end: '03/2023',
+  },
 ];
