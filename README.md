@@ -1,2 +1,2 @@
-# ```Diplomas```
+## ```Cursos/diplomas```
 ---
