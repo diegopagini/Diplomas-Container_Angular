@@ -1163,4 +1163,11 @@ export const DIPLOMAS: Diploma[] = [
     hours: 3,
     date_end: '03/2023',
   },
+  {
+    name: 'Qwik for Beginners',
+    url: 'assets/diplomas/qwik.pdf',
+    id: 167,
+    hours: 7,
+    date_end: '04/2023',
+  },
 ];
