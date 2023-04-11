@@ -1170,4 +1170,11 @@ export const DIPLOMAS: Diploma[] = [
     hours: 7,
     date_end: '04/2023',
   },
+  {
+    name: 'React with sockets',
+    url: 'assets/diplomas/react-sockets.pdf',
+    id: 168,
+    hours: 32,
+    date_end: '04/2023',
+  },
 ];
