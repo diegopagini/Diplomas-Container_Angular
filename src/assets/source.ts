@@ -1177,4 +1177,11 @@ export const DIPLOMAS: Diploma[] = [
     hours: 32,
     date_end: '04/2023',
   },
+  {
+    name: 'Inteligencia Artificial Simplificado',
+    url: 'assets/diplomas/ia-simplificado.pdf',
+    id: 167,
+    hours: 6,
+    date_end: '04/2023',
+  },
 ];
