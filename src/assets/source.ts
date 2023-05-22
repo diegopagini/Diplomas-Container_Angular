@@ -1180,8 +1180,15 @@ export const DIPLOMAS: Diploma[] = [
   {
     name: 'Inteligencia Artificial Simplificado',
     url: 'assets/diplomas/ia-simplificado.pdf',
-    id: 167,
+    id: 169,
     hours: 6,
     date_end: '04/2023',
+  },
+  {
+    name: 'Introducción a Qwik',
+    url: 'assets/diplomas/qwik-introduccion.pdf',
+    id: 170,
+    hours: 16,
+    date_end: '05/2023',
   },
 ];
