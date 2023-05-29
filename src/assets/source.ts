@@ -1191,4 +1191,18 @@ export const DIPLOMAS: Diploma[] = [
     hours: 16,
     date_end: '05/2023',
   },
+  {
+    name: 'Cambios Positivos',
+    url: 'assets/diplomas/cambios-positivos.pdf',
+    id: 171,
+    hours: 8,
+    date_end: '05/2023',
+  },
+  {
+    name: 'VS Code',
+    url: 'assets/diplomas/vs-code.pdf',
+    id: 172,
+    hours: 4,
+    date_end: '05/2023',
+  },
 ];
