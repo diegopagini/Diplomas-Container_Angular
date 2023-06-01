@@ -1205,4 +1205,11 @@ export const DIPLOMAS: Diploma[] = [
     hours: 4,
     date_end: '05/2023',
   },
+  {
+    name: 'VS Code',
+    url: 'assets/diplomas/inteligencia-emocional.pdf',
+    id: 173,
+    hours: 4,
+    date_end: '06/2023',
+  },
 ];
