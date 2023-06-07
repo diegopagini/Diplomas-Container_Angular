@@ -1212,4 +1212,11 @@ export const DIPLOMAS: Diploma[] = [
     hours: 4,
     date_end: '06/2023',
   },
+  {
+    name: 'Metas estratégicas',
+    url: 'assets/diplomas/metas.pdf',
+    id: 174,
+    hours: 8,
+    date_end: '06/2023',
+  },
 ];
