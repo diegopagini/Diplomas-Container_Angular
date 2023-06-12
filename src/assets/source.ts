@@ -1206,10 +1206,10 @@ export const DIPLOMAS: Diploma[] = [
     date_end: '05/2023',
   },
   {
-    name: 'VS Code',
+    name: 'Inteligencia Emocional',
     url: 'assets/diplomas/inteligencia-emocional.pdf',
     id: 173,
-    hours: 4,
+    hours: 8,
     date_end: '06/2023',
   },
   {
@@ -1217,6 +1217,13 @@ export const DIPLOMAS: Diploma[] = [
     url: 'assets/diplomas/metas.pdf',
     id: 174,
     hours: 8,
+    date_end: '06/2023',
+  },
+  {
+    name: 'ChatGPT Total. De cero a experto',
+    url: 'assets/diplomas/chatgpt.pdf',
+    id: 175,
+    hours: 12,
     date_end: '06/2023',
   },
 ];
