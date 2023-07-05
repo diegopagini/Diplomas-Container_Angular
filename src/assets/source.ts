@@ -1226,4 +1226,11 @@ export const DIPLOMAS: Diploma[] = [
     hours: 12,
     date_end: '06/2023',
   },
+  {
+    name: 'Test unitarios con Jest en Angular',
+    url: 'assets/diplomas/angular-jest.pdf',
+    id: 176,
+    hours: 12,
+    date_end: '07/2023',
+  },
 ];
