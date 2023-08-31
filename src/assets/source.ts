@@ -1233,4 +1233,11 @@ export const DIPLOMAS: Diploma[] = [
     hours: 12,
     date_end: '07/2023',
   },
+  {
+    name: 'Vue de cero a experto',
+    url: 'assets/diplomas/vue.pdf',
+    id: 177,
+    hours: 80,
+    date_end: '08/2023',
+  },
 ];
