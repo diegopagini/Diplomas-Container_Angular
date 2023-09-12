@@ -1240,4 +1240,11 @@ export const DIPLOMAS: Diploma[] = [
     hours: 80,
     date_end: '08/2023',
   },
+  {
+    name: 'Product Owner Essential',
+    url: 'assets/diplomas/po.pdf',
+    id: 178,
+    hours: 10,
+    date_end: '09/2023',
+  },
 ];
