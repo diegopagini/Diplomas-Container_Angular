@@ -1247,4 +1247,11 @@ export const DIPLOMAS: Diploma[] = [
     hours: 10,
     date_end: '09/2023',
   },
+  {
+    name: 'Estimación de proyectos de software',
+    url: 'assets/diplomas/estimacion.pdf',
+    id: 179,
+    hours: 8,
+    date_end: '09/2023',
+  },
 ];
