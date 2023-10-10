@@ -1254,4 +1254,11 @@ export const DIPLOMAS: Diploma[] = [
     hours: 8,
     date_end: '09/2023',
   },
+  {
+    name: 'Github Copilot Chat',
+    url: 'assets/diplomas/gh-copilot.pdf',
+    id: 180,
+    hours: 4,
+    date_end: '10/2023',
+  },
 ];
