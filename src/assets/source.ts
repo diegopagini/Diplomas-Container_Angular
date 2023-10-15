@@ -1261,4 +1261,11 @@ export const DIPLOMAS: Diploma[] = [
     hours: 4,
     date_end: '10/2023',
   },
+  {
+    name: 'BEMIT. BEM & ITCSS. Diseño Web Avanzado',
+    url: 'assets/diplomas/bemit.pdf',
+    id: 181,
+    hours: 4,
+    date_end: '10/2023',
+  },
 ];
