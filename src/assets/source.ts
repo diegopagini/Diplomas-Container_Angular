@@ -1268,4 +1268,11 @@ export const DIPLOMAS: Diploma[] = [
     hours: 4,
     date_end: '10/2023',
   },
+  {
+    name: 'Python total.',
+    url: 'assets/diplomas/python.pdf',
+    id: 182,
+    hours: 30,
+    date_end: '10/2023',
+  },
 ];
