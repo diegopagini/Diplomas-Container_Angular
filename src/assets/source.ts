@@ -1275,4 +1275,11 @@ export const DIPLOMAS: Diploma[] = [
     hours: 30,
     date_end: '10/2023',
   },
+  {
+    name: 'Ionic 7',
+    url: 'assets/diplomas/ionic-7.pdf',
+    id: 183,
+    hours: 30,
+    date_end: '11/2023',
+  },
 ];
