@@ -1282,4 +1282,11 @@ export const DIPLOMAS: Diploma[] = [
     hours: 30,
     date_end: '11/2023',
   },
+    {
+    name: 'Dart',
+    url: 'assets/diplomas/dart.pdf',
+    id: 184,
+    hours: 12,
+    date_end: '12/2023',
+  },
 ];
