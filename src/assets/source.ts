@@ -1296,4 +1296,11 @@ export const DIPLOMAS: Diploma[] = [
     hours: 70,
     date_end: '02/2024',
   },
+  {
+    name: 'Riverpod',
+    url: 'assets/diplomas/riverpod.pdf',
+    id: 186,
+    hours: 5,
+    date_end: '02/2024',
+  },
 ];
